@@ -1,0 +1,32 @@
+.home-main{
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* object-fit:scale-up; */
+    min-height: max-content ;
+}
+.weather-report{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: grey;
+}
+.current-weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.live-report{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.live-report h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}

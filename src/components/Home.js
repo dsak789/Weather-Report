@@ -71,6 +71,7 @@ const Home = () => {
                     <h5>Updated On {current.last_updated}</h5>
                 </div>
                 <div className='live-report'>
+                    <img src={image} alt='mood' />
                 </div>
             </div>
         </div>

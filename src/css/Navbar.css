@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-main{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0% 0%;
+
+    background-color: rgb(124, 195, 204);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    color: rgb(0, 65, 65);
+    user-select: none;
+    padding: 2px;
+}
+.header p::first-letter{
+    font-size: xx-large;
+    color: rgb(75, 106, 106);
+}
+.navbar{
+    background-color: rgba(51, 45, 45, 0.562);
+    padding: 1%;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+.nav-links .home-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 107, 212);
+    color: white;
+    text-decoration: none;
+    padding: 0.50%;
+    border-radius:15px ;
+}

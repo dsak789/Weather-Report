@@ -1,0 +1,58 @@
+.weather-report{
+    /* position: relative; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgb(147, 160, 160);
+}
+.current-weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: rgb(211, 209, 207);
+    padding: 5px;
+    height: 250px;
+    width: 500px;
+}
+.current-weather h2{
+    display: inline-flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.cur-report{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.temp-report{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.temp-report b, .temp-report-feelslike b{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+
+}
+.cur-report img{
+    height: 100px;
+}
+
+.other-readings table tr th{
+    /* text-align:center; */
+    padding: 5px;
+
+}
+th , td{
+    padding: 1%;
+    height: auto;
+    width: fit-content;
+}

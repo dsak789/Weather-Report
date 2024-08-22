@@ -1,14 +1,14 @@
 .home-main{
     background-repeat: no-repeat;
     min-height: 100vh;
-    /* object-fit:scale-up; */
+    object-fit:scale-up;
     min-height: max-content ;
 }
 .weather-report{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
 }
 .current-weather{
     display: flex;

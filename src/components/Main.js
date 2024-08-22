@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 const Main = () => {
 
   const [report,setReport] = useState(null);
-  const [geolocation,setLocation] = useState('')
+  const [geolocation,setLocation] = useState('visakhapatnam')
 
   const getreport = ()=>{
     axios.get(`https://api.weatherapi.com/v1/current.json?key=ef7b82e65eae45b688f122558240301&q=${geolocation}&aqi=no`)
